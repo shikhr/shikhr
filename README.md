@@ -8,9 +8,9 @@ I also know a fair bit of **web development**.
 
 
 ### Tech I use
-- **Languages:** Python, JavaScript, HTML/CSS, SQL.
+- **Languages:** Python, JavaScript, HTML/CSS, SQL, C++.
 - **Frameworks:** PyTorch, NumPy, Pandas, React, Next.js, Node, Express, and such.
-- **Tools/Software:** Git, VSCode, Jupyter, linux.
+- **Tools/Software:** Git, Docker, VSCode, Jupyter, linux.
 
 <br>
 
