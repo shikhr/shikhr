@@ -13,5 +13,3 @@ I also know a fair bit of **web development**.
 - **Tools/Software:** Git, Docker, VSCode, Jupyter, linux.
 
 <br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shikhar-mishra-490248224)
