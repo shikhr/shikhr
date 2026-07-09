@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Xbox game controller</title>
+  <desc id="desc">A polished dark green Xbox-style wireless game controller with thumbsticks, directional pad, menu buttons, and four colored action buttons.</desc>
+
+  <defs>
+    <linearGradient id="body" x1="600" y1="150" x2="600" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#31584B"/>
+      <stop offset="0.48" stop-color="#18382F"/>
+      <stop offset="1" stop-color="#0B211C"/>
+    </linearGradient>
+    <linearGradient id="bodyHighlight" x1="600" y1="160" x2="600" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5C8175" stop-opacity=".62"/>
+      <stop offset=".55" stop-color="#264A40" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#0A1916" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="sideShade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#071712" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#071712" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="stickTop" cx="0" cy="0" r="1" gradientTransform="translate(0.34 0.24) rotate(47) scale(.92)">
+      <stop stop-color="#40564F"/>
+      <stop offset=".58" stop-color="#1B2925"/>
+      <stop offset="1" stop-color="#0A100E"/>
+    </radialGradient>
+    <linearGradient id="metalRing" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#768A83"/>
+      <stop offset=".42" stop-color="#243B34"/>
+      <stop offset="1" stop-color="#07110E"/>
+    </linearGradient>
+    <radialGradient id="buttonBlack" cx="0" cy="0" r="1" gradientTransform="translate(.32 .2) rotate(45) scale(.9)">
+      <stop stop-color="#4B5C56"/>
+      <stop offset=".48" stop-color="#1B2925"/>
+      <stop offset="1" stop-color="#080E0C"/>
+    </radialGradient>
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8FFF8"/>
+      <stop offset="1" stop-color="#BBD5C8"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="175%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#020806" flood-opacity=".42"/>
+    </filter>
+    <filter id="controlShadow" x="-40%" y="-40%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#020806" flood-opacity=".58"/>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <clipPath id="bodyClip">
+      <path d="M407 172C342 177 300 202 275 250C246 305 220 384 199 465C175 556 169 628 210 654C251 680 293 632 331 577L403 474C431 440 468 430 508 438C537 444 565 450 600 450C635 450 663 444 692 438C732 430 769 440 797 474L869 577C907 632 949 680 990 654C1031 628 1025 556 1001 465C980 384 954 305 925 250C900 202 858 177 793 172C733 168 688 181 652 195C618 208 582 208 548 195C512 181 467 168 407 172Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Ground shadow -->
+  <ellipse cx="600" cy="674" rx="390" ry="49" fill="#06100D" opacity=".2" filter="url(#softGlow)"/>
+
+  <!-- Shoulder buttons -->
+  <path d="M322 231C335 181 374 151 433 144C464 140 496 145 524 157L503 203C471 192 435 189 402 194C369 199 345 213 322 231Z" fill="#0B1C17" stroke="#45695D" stroke-width="5"/>
+  <path d="M878 231C865 181 826 151 767 144C736 140 704 145 676 157L697 203C729 192 765 189 798 194C831 199 855 213 878 231Z" fill="#0B1C17" stroke="#45695D" stroke-width="5"/>
+  <path d="M441 144C448 121 467 104 492 100L539 119C549 124 552 137 545 146L524 173C496 157 469 148 441 144Z" fill="#132C25" stroke="#496F62" stroke-width="4"/>
+  <path d="M759 144C752 121 733 104 708 100L661 119C651 124 648 137 655 146L676 173C704 157 731 148 759 144Z" fill="#132C25" stroke="#496F62" stroke-width="4"/>
+
+  <!-- Main shell -->
+  <g filter="url(#shadow)">
+    <path d="M407 172C342 177 300 202 275 250C246 305 220 384 199 465C175 556 169 628 210 654C251 680 293 632 331 577L403 474C431 440 468 430 508 438C537 444 565 450 600 450C635 450 663 444 692 438C732 430 769 440 797 474L869 577C907 632 949 680 990 654C1031 628 1025 556 1001 465C980 384 954 305 925 250C900 202 858 177 793 172C733 168 688 181 652 195C618 208 582 208 548 195C512 181 467 168 407 172Z" fill="url(#body)" stroke="#071612" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M411 184C352 188 314 212 292 255C268 302 247 361 229 427C278 335 342 273 427 242C481 222 537 227 576 241C592 247 608 247 624 241C663 227 719 222 773 242C858 273 922 335 971 427C953 361 932 302 908 255C886 212 848 188 789 184C732 180 691 192 656 206C620 220 580 220 544 206C509 192 468 180 411 184Z" fill="url(#bodyHighlight)" opacity=".86"/>
+  </g>
+
+  <!-- Sculpted grip shading -->
+  <g clip-path="url(#bodyClip)">
+    <path d="M180 408C248 417 301 464 339 522L287 619C252 670 199 684 177 627C157 574 159 483 180 408Z" fill="url(#sideShade)" opacity=".6"/>
+    <path d="M1020 408C952 417 899 464 861 522L913 619C948 670 1001 684 1023 627C1043 574 1041 483 1020 408Z" fill="url(#sideShade)" opacity=".6"/>
+    <path d="M244 486C265 502 283 527 297 553" stroke="#66877B" stroke-opacity=".18" stroke-width="4" stroke-linecap="round"/>
+    <path d="M956 486C935 502 917 527 903 553" stroke="#66877B" stroke-opacity=".18" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Xbox logo button -->
+  <g filter="url(#controlShadow)">
+    <circle cx="600" cy="250" r="47" fill="#0A1713" stroke="#5B796F" stroke-width="5"/>
+    <circle cx="600" cy="250" r="39" fill="url(#logo)"/>
+    <path d="M579 229C587 224 594 222 600 222C606 222 613 224 621 229C612 234 605 240 600 247C595 240 588 234 579 229ZM577 234C565 247 562 264 570 278C576 266 585 256 596 251C591 244 585 238 577 234ZM623 234C635 247 638 264 630 278C624 266 615 256 604 251C609 244 615 238 623 234ZM575 283C583 290 591 293 600 293C609 293 617 290 625 283C619 270 611 261 600 255C589 261 581 270 575 283Z" fill="#0B6F42"/>
+  </g>
+
+  <!-- Left thumbstick -->
+  <g transform="translate(377 320)" filter="url(#controlShadow)">
+    <circle r="78" fill="#0A1713" stroke="#426157" stroke-width="6"/>
+    <circle r="61" fill="url(#metalRing)"/>
+    <circle r="52" fill="#0B1411"/>
+    <circle r="45" fill="url(#stickTop)" stroke="#53665F" stroke-width="3"/>
+    <circle r="34" stroke="#6B7B76" stroke-opacity=".32" stroke-width="3" stroke-dasharray="3 5"/>
+    <path d="M-24-18C-11-31 10-34 25-23" stroke="#95A39E" stroke-opacity=".2" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- D-pad -->
+  <g transform="translate(441 480)" filter="url(#controlShadow)">
+    <circle r="70" fill="#10231D" stroke="#38564C" stroke-width="5"/>
+    <path d="M-22-57H22L27-27L57-22V22L27 27L22 57H-22L-27 27L-57 22V-22L-27-27Z" fill="url(#buttonBlack)" stroke="#708079" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-14-47H14L18-17L47-14V14L18 17L14 47H-14L-18 17L-47 14V-14L-18-17Z" fill="#1B2A25" opacity=".74"/>
+    <path d="M0-45V45M-45 0H45" stroke="#73837D" stroke-opacity=".38" stroke-width="3"/>
+    <circle r="12" fill="#121F1B" stroke="#65756F" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+
+  <!-- Right thumbstick -->
+  <g transform="translate(677 463)" filter="url(#controlShadow)">
+    <circle r="78" fill="#0A1713" stroke="#426157" stroke-width="6"/>
+    <circle r="61" fill="url(#metalRing)"/>
+    <circle r="52" fill="#0B1411"/>
+    <circle r="45" fill="url(#stickTop)" stroke="#53665F" stroke-width="3"/>
+    <circle r="34" stroke="#6B7B76" stroke-opacity=".32" stroke-width="3" stroke-dasharray="3 5"/>
+    <path d="M-24-18C-11-31 10-34 25-23" stroke="#95A39E" stroke-opacity=".2" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- View and menu buttons -->
+  <g filter="url(#controlShadow)">
+    <circle cx="529" cy="324" r="24" fill="url(#buttonBlack)" stroke="#51675F" stroke-width="3"/>
+    <rect x="519" y="317" width="14" height="11" rx="1.5" stroke="#AFC2BA" stroke-width="2"/>
+    <rect x="525" y="312" width="14" height="11" rx="1.5" stroke="#AFC2BA" stroke-width="2"/>
+
+    <circle cx="671" cy="324" r="24" fill="url(#buttonBlack)" stroke="#51675F" stroke-width="3"/>
+    <path d="M661 317H681M661 324H681M661 331H681" stroke="#AFC2BA" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Share button -->
+  <g filter="url(#controlShadow)">
+    <circle cx="600" cy="356" r="21" fill="url(#buttonBlack)" stroke="#51675F" stroke-width="3"/>
+    <path d="M592 352L600 345L608 352M600 346V360M593 357V365H607V357" stroke="#AFC2BA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Action buttons -->
+  <g filter="url(#controlShadow)" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
+    <g>
+      <circle cx="826" cy="315" r="34" fill="url(#buttonBlack)" stroke="#526A61" stroke-width="4"/>
+      <circle cx="826" cy="315" r="25" fill="#C8A313"/>
+      <circle cx="826" cy="315" r="21" fill="#E5BD18"/>
+      <text x="826" y="324" fill="#18251F">Y</text>
+    </g>
+    <g>
+      <circle cx="882" cy="371" r="34" fill="url(#buttonBlack)" stroke="#526A61" stroke-width="4"/>
+      <circle cx="882" cy="371" r="25" fill="#A72B2A"/>
+      <circle cx="882" cy="371" r="21" fill="#CE3D39"/>
+      <text x="882" y="380" fill="#F3D8D6">B</text>
+    </g>
+    <g>
+      <circle cx="826" cy="427" r="34" fill="url(#buttonBlack)" stroke="#526A61" stroke-width="4"/>
+      <circle cx="826" cy="427" r="25" fill="#2A7B42"/>
+      <circle cx="826" cy="427" r="21" fill="#42A55F"/>
+      <text x="826" y="436" fill="#E3F3E6">A</text>
+    </g>
+    <g>
+      <circle cx="770" cy="371" r="34" fill="url(#buttonBlack)" stroke="#526A61" stroke-width="4"/>
+      <circle cx="770" cy="371" r="25" fill="#21679B"/>
+      <circle cx="770" cy="371" r="21" fill="#348DCB"/>
+      <text x="770" y="380" fill="#E1EFF8">X</text>
+    </g>
+  </g>
+
+  <!-- Lower shell seam and subtle highlights -->
+  <path d="M357 551C400 520 447 519 501 535C566 554 634 554 699 535C753 519 800 520 843 551" stroke="#6C8B80" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M341 222C381 186 449 181 524 207" stroke="#A2BAAF" stroke-opacity=".2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M859 222C819 186 751 181 676 207" stroke="#A2BAAF" stroke-opacity=".2" stroke-width="5" stroke-linecap="round"/>
+</svg>
