@@ -46,7 +46,7 @@
       <feGaussianBlur stdDeviation="8"/>
     </filter>
     <clipPath id="bodyClip">
-      <path d="M407 172C342 177 300 202 275 250C246 305 220 384 199 465C175 556 169 628 210 654C251 680 293 632 331 577L388 500C407 535 448 562 500 574C565 589 635 589 700 574C752 562 793 535 812 500L869 577C907 632 949 680 990 654C1031 628 1025 556 1001 465C980 384 954 305 925 250C900 202 858 177 793 172C733 168 688 181 652 195C618 208 582 208 548 195C512 181 467 168 407 172Z"/>
+      <path d="M407 172C342 177 300 202 275 250C246 305 220 384 199 465C175 556 169 628 210 654C251 680 293 632 331 577C350 550 374 510 392 493C400 485 408 507 426 523C454 548 484 560 520 569C572 581 628 581 680 569C716 560 746 548 774 523C792 507 800 485 808 493C826 510 850 550 869 577C907 632 949 680 990 654C1031 628 1025 556 1001 465C980 384 954 305 925 250C900 202 858 177 793 172C733 168 688 181 652 195C618 208 582 208 548 195C512 181 467 168 407 172Z"/>
     </clipPath>
   </defs>
 
@@ -56,12 +56,10 @@
   <!-- Shoulder buttons -->
   <path d="M322 231C335 181 374 151 433 144C464 140 496 145 524 157L503 203C471 192 435 189 402 194C369 199 345 213 322 231Z" fill="#0B1C17" stroke="#45695D" stroke-width="5"/>
   <path d="M878 231C865 181 826 151 767 144C736 140 704 145 676 157L697 203C729 192 765 189 798 194C831 199 855 213 878 231Z" fill="#0B1C17" stroke="#45695D" stroke-width="5"/>
-  <path d="M441 144C448 121 467 104 492 100L539 119C549 124 552 137 545 146L524 173C496 157 469 148 441 144Z" fill="#132C25" stroke="#496F62" stroke-width="4"/>
-  <path d="M759 144C752 121 733 104 708 100L661 119C651 124 648 137 655 146L676 173C704 157 731 148 759 144Z" fill="#132C25" stroke="#496F62" stroke-width="4"/>
 
   <!-- Main shell -->
   <g filter="url(#shadow)">
-    <path d="M407 172C342 177 300 202 275 250C246 305 220 384 199 465C175 556 169 628 210 654C251 680 293 632 331 577L388 500C407 535 448 562 500 574C565 589 635 589 700 574C752 562 793 535 812 500L869 577C907 632 949 680 990 654C1031 628 1025 556 1001 465C980 384 954 305 925 250C900 202 858 177 793 172C733 168 688 181 652 195C618 208 582 208 548 195C512 181 467 168 407 172Z" fill="url(#body)" stroke="#071612" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M407 172C342 177 300 202 275 250C246 305 220 384 199 465C175 556 169 628 210 654C251 680 293 632 331 577C350 550 374 510 392 493C400 485 408 507 426 523C454 548 484 560 520 569C572 581 628 581 680 569C716 560 746 548 774 523C792 507 800 485 808 493C826 510 850 550 869 577C907 632 949 680 990 654C1031 628 1025 556 1001 465C980 384 954 305 925 250C900 202 858 177 793 172C733 168 688 181 652 195C618 208 582 208 548 195C512 181 467 168 407 172Z" fill="url(#body)" stroke="#071612" stroke-width="10" stroke-linejoin="round"/>
     <path d="M411 184C352 188 314 212 292 255C268 302 247 361 229 427C278 335 342 273 427 242C481 222 537 227 576 241C592 247 608 247 624 241C663 227 719 222 773 242C858 273 922 335 971 427C953 361 932 302 908 255C886 212 848 188 789 184C732 180 691 192 656 206C620 220 580 220 544 206C509 192 468 180 411 184Z" fill="url(#bodyHighlight)" opacity=".86"/>
   </g>
 
@@ -81,7 +79,7 @@
   </g>
 
   <!-- Left thumbstick -->
-  <g transform="translate(377 320)" filter="url(#controlShadow)">
+  <g transform="translate(377 320) scale(.92)" filter="url(#controlShadow)">
     <circle r="78" fill="#0A1713" stroke="#426157" stroke-width="6"/>
     <circle r="61" fill="url(#metalRing)"/>
     <circle r="52" fill="#0B1411"/>
@@ -91,7 +89,7 @@
   </g>
 
   <!-- D-pad -->
-  <g transform="translate(441 480)" filter="url(#controlShadow)">
+  <g transform="translate(441 452) scale(.9)" filter="url(#controlShadow)">
     <circle r="70" fill="#10231D" stroke="#38564C" stroke-width="5"/>
     <path d="M-22-57H22L27-27L57-22V22L27 27L22 57H-22L-27 27L-57 22V-22L-27-27Z" fill="url(#buttonBlack)" stroke="#708079" stroke-width="4" stroke-linejoin="round"/>
     <path d="M-14-47H14L18-17L47-14V14L18 17L14 47H-14L-18 17L-47 14V-14L-18-17Z" fill="#1B2A25" opacity=".74"/>
@@ -100,7 +98,7 @@
   </g>
 
   <!-- Right thumbstick -->
-  <g transform="translate(677 463)" filter="url(#controlShadow)">
+  <g transform="translate(677 445) scale(.92)" filter="url(#controlShadow)">
     <circle r="78" fill="#0A1713" stroke="#426157" stroke-width="6"/>
     <circle r="61" fill="url(#metalRing)"/>
     <circle r="52" fill="#0B1411"/>
@@ -126,7 +124,7 @@
   </g>
 
   <!-- Action buttons -->
-  <g filter="url(#controlShadow)" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
+  <g transform="translate(826 371) scale(.92) translate(-826 -371)" filter="url(#controlShadow)" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
     <g>
       <circle cx="826" cy="315" r="34" fill="url(#buttonBlack)" stroke="#526A61" stroke-width="4"/>
       <circle cx="826" cy="315" r="25" fill="#C8A313"/>
