@@ -153,8 +153,7 @@
     </g>
   </g>
 
-  <!-- Lower shell seam and subtle highlights -->
-  <path d="M357 551C400 520 447 519 501 535C566 554 634 554 699 535C753 519 800 520 843 551" stroke="#6C8B80" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/>
+  <!-- Subtle upper-shell highlights -->
   <path d="M341 222C381 186 449 181 524 207" stroke="#A2BAAF" stroke-opacity=".2" stroke-width="5" stroke-linecap="round"/>
   <path d="M859 222C819 186 751 181 676 207" stroke="#A2BAAF" stroke-opacity=".2" stroke-width="5" stroke-linecap="round"/>
 </svg>
